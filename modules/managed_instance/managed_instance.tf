@@ -4,4 +4,5 @@ module "managed_instance" {
     resource_group_name = "sqlmitftest"
     location = "northeurope"
     managed_instance_object = var.managed_instance_object_main
+    adminPassword = var.admin_password
 }
