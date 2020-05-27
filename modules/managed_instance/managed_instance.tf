@@ -1,7 +1,7 @@
 module "managed_instance" {
-    source              = "./Managed_instance"
+    source              = "./Module"
 
-    resource_group_name = "rg_neu_terraform_managed_instance"
+    resource_group_name = "sqlmitftest"
     location = "northeurope"
     managed_instance_object = var.managed_instance_object_main
 }

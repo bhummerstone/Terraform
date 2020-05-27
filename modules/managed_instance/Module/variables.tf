@@ -8,5 +8,8 @@ variable "location"           {
 
 variable "managed_instance_object" {
     description = "(Required) Object defining managed instance"
-   
+}
+
+variable "admin_password" {
+    description = "(Required) Administrator password"
 }
